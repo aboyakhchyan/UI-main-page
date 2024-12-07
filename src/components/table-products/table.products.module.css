@@ -32,7 +32,7 @@ th, td {
 }
 
 th {
-    color: #718EBF; /* Серый текст */
+    color: #718EBF; 
     font-weight: 500;
     font-size: 16px;
     border-bottom: 1px solid #e5e7eb;

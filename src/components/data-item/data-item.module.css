@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    width: 255px;
+    height: 120px;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.imgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.imgBlock img{
+    width: 30px;
+    height: 30px;
+}
+
+.textContent {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.textContent p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #718EBF;
+}
+
+.textContent h3 {
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+}

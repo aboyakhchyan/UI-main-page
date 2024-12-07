@@ -1,0 +1,55 @@
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 680px;
+    height: 270px;
+}
+
+.tableContainer h2 {
+  width: 250px;
+  height: 27px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 26.63px;
+  font-family: 'Inter', sans-serif;
+  color: #343C6A;
+}
+
+table {
+    width: 680px;
+    height: 220px;
+    border-collapse: collapse;
+    background-color: white; 
+    font-family: 'Inter', sans-serif;
+    color: #333; 
+    border-radius: 25px;
+}
+
+th, td {
+    text-align: left;
+    padding: 10px 50px;
+}
+
+th {
+    color: #718EBF; /* Серый текст */
+    font-weight: 500;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e7eb;
+    line-height: 19.36px; /* Линия под заголовком */
+}
+
+td {
+    font-size: 14px;
+    color: black
+    /* border-bottom: 1px solid #e5e7eb; */
+}
+
+tbody tr:hover {
+    background-color: #f3f4f6; /* Светло-серый фон при наведении */
+}
+
+td:nth-child(4) { /* Стили для столбца Quantity */
+    color: #13d795; /* Зеленый цвет */
+}
+
